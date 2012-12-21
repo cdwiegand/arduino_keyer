@@ -196,7 +196,7 @@ void morse(char sendMe) {
     }
     delay(baseSpeed);
   }
-  delay(baseSpeed); // we already delayed after the last letter
+  delay(baseSpeed*2); // we already delayed after the last letter
 }
  
 void active(int activeMultiplier) {  
